@@ -73,9 +73,9 @@ nav .nav-logo {
   padding-right: 30px;
 }
 .hot .hot-logo {
-  top: 1530px;
+  top: 1540px;
   right: 0;
-  right: 550px;
+  right: 570px;
   width: 65px;
 }
 /* Clients Section */
@@ -95,11 +95,22 @@ nav .nav-logo {
   width: 90px;
   height: 90px;
 }
+/* Footer section style */
+footer {
+  height: 280px;
+  background: #0b0d17;
+}
+footer > div {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 80px;
+}
 /* Responsive for small device */
 @media screen and (max-width: 576px) {
   main {
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 0px;
   }
   section {
     margin-bottom: 70px;
@@ -129,5 +140,12 @@ nav .nav-logo {
   .package {
     flex-direction: column;
     row-gap: 50px;
+  }
+  .frequently .accordion{
+    width: 100% !important;
+  }
+  footer > div {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
