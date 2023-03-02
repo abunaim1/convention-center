@@ -9,11 +9,126 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Bootstrap CSS file -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-
   </head>
   <body>
-    <p>Bootstrap Testing</p>
-    
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-logo" href="#">Abacus Convention Center</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active item">
+            <img src="images/banner.png" class="d-block w-100" />
+            <div class="carousel-caption carosel-text">
+              <h5 class="display-4">The perfect venue for your next event</h5>
+              <p>
+                A convention center is a large building that is designed to hold a convention, where individuals and groups gather to
+                promote and share common interests.
+              </p>
+              <button class="btn btn-light text-primary">Bool Now</button>
+            </div>
+          </div>
+          <div class="carousel-item item">
+            <img src="images/banner.png" class="d-block w-100" />
+            <div class="carousel-caption carosel-text">
+              <h5 class="display-4">The perfect venue for your next event</h5>
+              <p>
+                A convention center is a large building that is designed to hold a convention, where individuals and groups gather to
+                promote and share common interests.
+              </p>
+              <button class="btn btn-light text-primary">Bool Now</button>
+            </div>
+          </div>
+          <div class="carousel-item item">
+            <img src="images/banner.png" class="d-block w-100" />
+            <div class="carousel-caption carosel-text">
+              <h5 class="display-4">The perfect venue for your next event</h5>
+              <p>
+                A convention center is a large building that is designed to hold a convention, where individuals and groups gather to
+                promote and share common interests.
+              </p>
+              <button class="btn btn-light text-primary">Bool Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="d-flex align-items-center column-gap-5 flex-lg-row flex-column-reverse row-gap-3 preciouse-moment">
+          <img src="./images/wedding.png" alt="" />
+          <div>
+            <p class="h1">Every moment is Precious</p>
+            <p>
+              "You are invited to join us for brunch on the day after our wedding" or "We've reserved a hotel room block for you to book
+              your stay" along with a link to the details.
+            </p>
+            <button type="button" class="btn btn-primary rounded-0 fw-bold">Explore our album<i class="bi bi-arrow-right ps-1"></i></button>
+          </div>
+          <div class="toast align-items-center show position-absolute" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex justify-content-between align-items-center">
+            <div class="toast-body">
+               <i class="bi bi-gift pe-2 toast-icon"></i>20% off on next booking
+            </div>
+              <button type="button" class="btn-close ms-0 me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
     <!-- Boostrap Js File -->
     <script src="js/bootstrap.min.js"></script>
   </body>

@@ -1,0 +1,81 @@
+/* Common Styles */
+/* For Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* For Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin-bottom: 100px;
+}
+main {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+section {
+  margin-bottom: 100px;
+}
+/* nav style */
+nav {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+nav .nav-logo {
+  font-weight: 700;
+}
+/* Banner part */
+.item .carosel-text {
+  padding-bottom: 80px;
+  width: 40vw;
+  right: 0;
+  bottom: 0;
+  left: 500px;
+}
+.carosel-text p {
+  font-weight: 200;
+}
+.item h5 {
+  font-weight: 500;
+}
+/* Preciouse Moment style */
+.preciouse-moment img {
+  width: 100%;
+}
+.toast {
+    border-left: 6px solid #3F87F5 !important;
+  width: 260px !important;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+.toast-body .toast-icon {
+  font-size: 22px;
+}
+/* Responsive for small device */
+@media screen and (max-width: 576px) {
+  nav {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .item .carosel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    width: fit-content;
+    left: 0px;
+    padding-bottom: 40px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 700px;
+  }
+  main {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
